@@ -11,6 +11,7 @@ export default function RootLayout(){
               <NavLink to="/" end>Inicio</NavLink>
               <NavLink to="/about">Sobre mí</NavLink>
               <NavLink to="/projects">Proyectos</NavLink>
+              <NavLink to="/news">Noticias</NavLink>
               <NavLink to="/contact">Contacto</NavLink>
             </div>
           </nav>

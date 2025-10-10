@@ -87,7 +87,7 @@ label{font-weight:600}
 .tag{font-size:.85rem;padding:4px 10px;border-radius:999px;border:1px solid var(--border);color:var(--muted)}
 
 /* Sección principal (Hero) */
-.hero{display:grid;gap:24px;align-items:center;margin-top:24px}
+.hero{margin-top:24px}
 .hero .cta{display:flex;gap:12px;flex-wrap:wrap}
 
 /* Ayudas de accesibilidad */

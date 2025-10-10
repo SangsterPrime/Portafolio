@@ -7,7 +7,7 @@ export const profile = {
   role: 'estudiante de ingeniería en informática y Desarrollador Frontend',
   location: 'Santiago, Chile',
   summary: 'Estudiante de Ingeniería en Informática y desarrollador Frontend especializado en React y JavaScript. Creo interfaces accesibles y responsivas, integro APIs y aplico buenas prácticas de rendimiento y mantenibilidad.',
-  avatar: '/vite.svg',
+  avatar: '/perfil.webp',
   links: {
     github: 'https://github.com/SangsterPrime',
     linkedin: 'https://www.linkedin.com/in/joelsangster',
