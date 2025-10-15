@@ -61,6 +61,28 @@ nav.site .brand{font-weight:700;letter-spacing:.3px}
 
 footer.site{margin-top:48px;padding:24px 0;border-top:1px solid var(--border);color:var(--muted)}
 
+/* Navegación responsive */
+.nav-desktop{display:flex;gap:4px}
+.nav-mobile{display:none}
+.btn-ghost{background:none;border:none;font-size:22px;line-height:1;color:var(--fg);padding:10px;cursor:pointer;border-radius:8px}
+.btn-ghost:focus-visible{outline:3px solid color-mix(in oklab, var(--brand) 60%, white 40%)}
+.dropdown{min-width:180px;background:var(--bg);border:1px solid var(--border);border-radius:10px;box-shadow:0 10px 30px rgba(0,0,0,.2);padding:6px}
+.dropdown a{display:block;padding:10px 12px;border-radius:8px}
+.dropdown a:hover{background:color-mix(in oklab, var(--bg) 70%, var(--fg) 5%)}
+
+/* Dropdown móvil más amigable */
+.dropdown-mobile{z-index:20;min-width:220px;padding:8px}
+.dropdown-item{display:flex;align-items:center;gap:10px;font-weight:600}
+.dropdown-item i{width:18px;text-align:center;color:var(--brand)}
+
+/* Overlay para cerrar */
+.menu-overlay{position:fixed;inset:0;background:transparent;border:none;padding:0;margin:0;z-index:15}
+
+@media (max-width: 780px){
+	.nav-desktop{display:none}
+	.nav-mobile{display:block}
+}
+
 /* Utilidades */
 .mt-2{margin-top:8px}.mt-3{margin-top:12px}.mt-4{margin-top:16px}.mt-6{margin-top:24px}.mt-8{margin-top:32px}
 .mb-4{margin-bottom:16px}.mb-6{margin-bottom:24px}.mb-8{margin-bottom:32px}

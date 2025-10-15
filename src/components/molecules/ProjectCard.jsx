@@ -8,7 +8,7 @@ export default function ProjectCard({project}){
           src={project.image}
           alt={`Imagen del proyecto ${project.title}`}
           loading="lazy"
-          onError={(e)=>{ e.currentTarget.src = '/perfil.webp' }}
+          onError={(e)=>{ e.currentTarget.src = '/vite.svg' }}
         />
       )}
       <div className="content">
