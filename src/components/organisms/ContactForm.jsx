@@ -26,8 +26,8 @@ export default function ContactForm(){
       setStatus(null)
       try {
         await emailjs.sendForm(
-          'service_oqqupzv',
-          'template_u8tc6q6',
+          'service_sqtd38f',
+          'template_qkjpo8g',
           formRef.current,
           '0yW5zvSReudq156AP'
         )
